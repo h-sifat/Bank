@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Haram Bank</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="first">
+  <h1 class="text-center">Welcome to haram bank</h1>
+  <div class="submit">
+    <h4>Login</h4>
+    <input type="text" placeholder="Enter your username" class="form-control" id="username"><br>
+    <input type="password" placeholder="Enter your password" class="form-control" id="password"><br>
+    <button id="login" class="btn btn-success">Enter</button>
+  </div>
+</section>
+
+<section id="second">
+  
+  <div class="row">
+    <div class="col-md-4">
+    <div class="c1 c">
+      <h5>Deposit</h5>
+      <h2 id="depoResult">$00</h2>
+    </div>
+    </div>
+    <div class="col-md-4">
+      <div class="c2 c">
+        <h5>Withdraw</h5>
+        <h2 id="withResult">$00</h2>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="c3 c">
+      <h5>Balance</h5>
+      <h2 id="result">$1500</h2>
+      </div>
+    </div>
+  </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="c4">
+        <h4>Deposite</h4>
+        <input type="text" class="form-control" id="depoAmount" placeholder="$ amount"><br>
+        <button id="depoSub" class="btn btn-success">Enter</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="c4">
+        <h4>Withdraw</h4>
+        <input type="text" class="form-control" id="withAmount" placeholder="$ amount"><br>
+        <button id="withSub" class="btn btn-success">Enter</button>
+        </div>
+      </div>
+    </div>
+    
+    </section>
+
+
+<script src="script.js "></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.login-area{
+  padding: 110px;
+}
+.submit{
+  margin: 50px;
+  padding: 5%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+}
+#first{
+  margin: 15%;
+  display: block;
+}
+#second{
+  margin: 15%;
+  display: none;
+}
+
+.row{
+  margin: 40px 0;
+}
+.c{
+  margin: 0 12%;
+  margin-bottom: 2%;
+  border-radius: 5px;
+  padding: 4% 10%;
+}
+.c1{
+  background-color: slateblue;
+}
+.c2{
+  background-color: lightsalmon;
+}
+.c3{
+  background-color: orange;
+}
+
+.c4{
+  margin: 4% 10px;
+  border-radius: 8px;
+  padding: 5%;
+  box-shadow: 5px 5px 10px gray;
+}
+
